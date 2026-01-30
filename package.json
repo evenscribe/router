@@ -1,0 +1,14 @@
+{
+  "name": "llm-router",
+  "module": "index.ts",
+  "type": "module",
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
